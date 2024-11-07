@@ -1,0 +1,28 @@
+# Generated Files
+coverage/
+
+# Source code
+src/
+
+# Logs
+*.log
+
+# Tests
+test/
+*.test.js
+
+# Configs
+.github/
+.vscode/
+tsconfig.json
+typescript/
+.eslintrc.cjs
+.prettierrc
+.prototools
+build.mjs
+
+# Lock files
+pnpm-lock.yaml
+
+# MacOS specific files
+.DS_Store

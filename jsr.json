@@ -2,7 +2,10 @@
     "name": "@superepic/djin",
     "version": "1.0.1",
     "description": "Lightweight dependency injection container for JavaScript/TypeScript",
-    "exports": "./dist/index.mjs",
+    "exports": [
+        "./dist/index.mjs",
+        "./dist/index.d.mts"
+    ],
     "publish": {
         "exclude": [
             "!dist"
